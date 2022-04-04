@@ -1,0 +1,60 @@
+@media(max-width:1630px) {
+    #details .flex {
+        gap: 6rem;
+    }
+    @media(max-width:700px) {
+        header .flex {
+            flex-direction: column;
+        }
+        #banner .banner-content, #oneDrive-banner .banner-content {
+            width: unset;
+        }
+        #directLink {
+            text-align: left;
+        }
+        #directLink .flex {
+            flex-direction: column;
+            justify-content: unset;
+            align-items: unset;
+        }
+        #directLink .flex h3 {
+            display: inline;
+            position: relative;
+            bottom: 9px;
+            padding-left: 10px;
+        }
+        #direct-link-card .container, #business .flex {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 32px;
+        }
+        #details {
+            height: auto;
+        }
+        #details .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        footer .flex {
+            flex-direction: column;
+            align-items: unset;
+        }
+    }
+    @media(max-width:500px) {
+        #direct-link-card .container, #business .flex, #details .container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 32px;
+        }
+    }
+    @media(max-width:1130px) {
+        #details .flex {
+            gap: 3rem;
+        }
+    }
+    @media(max-width:890px) {
+        #details .flex {
+            gap: 2rem;
+        }
+    }

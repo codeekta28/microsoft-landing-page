@@ -1,0 +1,188 @@
+
+
+/* tags */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Nunito';
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 10px 0px;
+    text-transform: capitalize;
+}
+p{
+    line-height: 1.7;
+    margin: 10px 0px;
+}
+img{
+    width: 100%;
+ 
+}
+/* header section */
+header .flex{
+    justify-content: space-between;
+}
+header nav{
+    display: flex;
+    gap: 10px;
+}
+header .container nav ul{
+    display: flex;
+    margin-top: 1rem;
+}
+header .container nav ul a,header .header-right p{
+    padding: 0px 10px;
+}
+header nav ul a:hover,#directLink a:hover,#covid a:hover,#details a:hover,footer ul li a:hover,footer .footerGlobe p:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+header .header-right{
+    display: flex;
+}
+/* banner section */
+#banner,#oneDrive-banner{
+height: 60vh;
+
+}
+#banner .container{
+    background: url("../img/banner1.jpg") no-repeat center/cover;
+    height: 100%;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+    color:white;
+}
+.banner-content{
+    width: 100vmin;
+    margin-top: 8rem;
+}
+.borderWhite:hover{
+    border-bottom: 2px solid white;
+}
+.paddingRight:hover{
+
+    padding-bottom: 0px;
+    padding-right: 5px;
+   
+}
+/* direct link section */
+#directLink{
+    text-align: center;
+    margin: 45px 5px;
+}
+#directLink img{
+    width:2rem;
+}
+#directLink h3{
+    width:20vmin;
+    color: black;
+}
+/* direct link card section */
+#direct-link-card {
+    margin: 25px 0px;
+}
+  .direct-link-inside-link{
+    padding: 0px 8px;
+    color: blue!important;
+    font-weight: 600;
+}
+
+.direct-link-inside-link:hover{
+    border-bottom: 2px solid rgb(81, 81, 236);
+} 
+/* one drive banner section */
+#oneDrive-banner .container{
+    background: url("../img/onedrive.jpg")no-repeat center/cover;
+    height: 100%;
+}
+/* business section */
+#business{
+    margin: 30px 0px;
+}
+#business h2{
+    margin: 10px 19px;
+}
+/* covid section */
+#covid{
+    text-align: center;
+}
+#covid .container{
+    background-color: rgb(223, 223, 223);
+}
+/* socialmedia section */
+#socialmedia{
+    margin: 30px 0px;
+}
+#socialmedia p{
+    display: inline;
+    padding: 0px 10px;
+    position: relative;
+    top: -10px;
+}
+#socialmedia img{
+    width: 3em;  
+    padding: 0px 5px;
+}
+/* details section */
+#details{
+background-color: rgb(238, 238, 238);
+padding: 30px 0px;
+height: 50vh;
+
+}
+#details .flex{
+    align-items: unset;
+    /* height: 100%; */
+    justify-content: unset;
+    gap: 12rem;
+}
+#details li{
+    line-height: 2rem;
+    font-size: 12px;
+}
+/* footer */
+footer{
+    background-color: rgb(238, 238, 238);
+}
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .footerGlobe i{
+    font-size: 25px;
+}
+footer .footerGlobe p{
+    display: inline;
+    padding: 0px 13px;
+    position: relative;
+    bottom: 3px;
+}
+footer .footerNav ul{
+    display: flex;
+    gap: 20px
+}
+/* animation */
+@keyframes gap {
+    0%{
+       padding-right: 10px;
+       border-bottom: 2px solid white;
+       padding-bottom: 0px;
+    }
+    100%{
+padding-left: 0px;
+border: none;
+    }
+    
+}

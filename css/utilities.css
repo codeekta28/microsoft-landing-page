@@ -1,0 +1,51 @@
+.container{
+    max-width: 1700px;
+    margin: auto;
+    padding: 10px 40px;
+    /* margin: 30px 0px; */
+    /* border: 2px solid red; */
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.btn{
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    position: relative;
+    top: 10px;
+
+}
+
+/* size of text */
+.lead{
+    /*this generally apply to all paras  */
+    font-size: 18px;
+}
+.sm{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.md{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.lg{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.xl{
+    font-size: 4rem;
+    font-weight: bolder;
+}
